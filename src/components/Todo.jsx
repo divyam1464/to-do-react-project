@@ -7,7 +7,7 @@ const Todo = () => {
     localStorage.getItem("todos")
       ? JSON.parse(localStorage.getItem("todos"))
       : []
-  );
+  )
   const inputRef = useRef();
 
   const add = () => {
